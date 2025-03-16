@@ -1,0 +1,35 @@
+# .gitignore
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Logs and output files
+*.log
+low_security_paypal_sites.txt
+
+# Virtual environment
+.env/
+.envrc
+
+# IDE files
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+*.pem
+*.key
+*.crt
+secrets.json
